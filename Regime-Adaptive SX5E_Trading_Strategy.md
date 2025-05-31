@@ -59,4 +59,9 @@ After dropping any column that is fully NaN, we keep all remaining features. The
    - **Sharpe Ratio** (annualized, no risk‐free).  
    - **Max Drawdown** (peak‐to‐trough on the cumulative wealth curve).  
 
+## Key Findings
 
+- Of the 3, 5, and 7‐regime configurations, one regime count (commonly **3 regimes**) delivered the highest out‐of‐sample Sharpe circa 0.5, whereas buy‐and‐hold achieved a Sharpe near 0.02–0.05 over the same period.  
+- Even with a simple “long/short/flat” rule, regime adaptation meaningfully reduced drawdowns and smoothed returns compared to buy‐and‐hold.
+
+---
