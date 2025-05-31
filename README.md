@@ -12,7 +12,7 @@ We build a market‐regime‐aware strategy that:
 
 1. **Clusters** each trading day (using GMM) into a fixed number of latent regimes (3, 5, or 7) based on normalized explanatory features (e.g., V2X, ITRAXX, EURUSD moves and their lags).  
 2. **Ranks** those regimes by in‐sample average next‐day SX5E return.  
-3. **Trains** a logistic‐regression classifier to predict tomorrow’s regime out‐of‐sample.  
+3. **Trains** a random forest classifier to predict tomorrow’s regime out‐of‐sample.  
 4. **Allocates** a €10 M notional long/short portfolio:  
    - If predicted regime is in the top half → go long  
    - If predicted regime is in the bottom half → go short  
