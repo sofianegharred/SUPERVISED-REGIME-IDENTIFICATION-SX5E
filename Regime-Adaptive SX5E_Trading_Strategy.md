@@ -43,7 +43,7 @@ After dropping any column that is fully NaN, we keep all remaining features. The
    - Assign each training day to a cluster label; compute each cluster’s average next‐day return.  
    - Rank clusters from 0 (highest mean return) to (n_regimes − 1) (lowest).
 
-2. **Supervised Regime Prediction (Random Forest) **  
+2. **Supervised Regime Prediction (Random Forest)**  
    - Train a `Random Forest` model on the first 2,500 days’ features → cluster labels.  
    - Evaluate in‐sample accuracy (as a sanity check).  
    - Predict cluster labels (and corresponding rank) on test days without ever retraining on test data.
